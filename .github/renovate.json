@@ -8,7 +8,9 @@
   "platform": "github",
   "includeForks": false,
   "dryRun": "full",
-  "repositories": [],
+  "repositories": [
+    "Briseus/test-renovate"
+  ],
   "enabledManagers": [
     "npm"
   ],
