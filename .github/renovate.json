@@ -1,0 +1,22 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "onboarding": false,
+  "dependencyDashboard": true,
+  "dependencyDashboardTitle": "Dependency Dashboard self-hosted",
+  "gitAuthor": "Renovate Bot <bot@renovateapp.com>",
+  "branchPrefix": "github-renovate/",
+  "platform": "github",
+  "includeForks": false,
+  "dryRun": "full",
+  "repositories": [],
+  "enabledManagers": [
+    "npm"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["*"],
+      "matchManagers": ["npm"],
+      "enabled": true
+    }
+  ]
+}
