@@ -8,6 +8,7 @@
   "platform": "github",
   "includeForks": false,
   "ignoreTests": true,
+  "automergeType": "branch",
   "repositories": [
     "Briseus/test-renovate"
   ],
