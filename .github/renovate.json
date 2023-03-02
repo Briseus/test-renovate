@@ -14,9 +14,13 @@
   ],
   "enabledManagers": [
     "npm",
-    "github-actions"
+    "github-actions",
+    "leiningen"
   ],
   "github-actions": {
+    "automerge": true
+  },
+  "leiningen": {
     "automerge": true
   },
   "packageRules": [
