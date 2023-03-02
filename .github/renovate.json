@@ -7,6 +7,7 @@
   "branchPrefix": "github-renovate/",
   "platform": "github",
   "includeForks": false,
+  "ignoreTests": true,
   "repositories": [
     "Briseus/test-renovate"
   ],
