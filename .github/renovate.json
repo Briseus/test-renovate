@@ -13,8 +13,12 @@
     "Briseus/test-renovate"
   ],
   "enabledManagers": [
-    "npm"
+    "npm",
+    "github-actions"
   ],
+  "github-actions": {
+    "automerge": true
+  },
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
