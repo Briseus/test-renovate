@@ -17,7 +17,8 @@
     {
       "matchPackagePatterns": ["*"],
       "matchManagers": ["npm"],
-      "enabled": true
+      "enabled": true,
+      "automerge": true
     }
   ]
 }
