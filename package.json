@@ -18,9 +18,11 @@
   "homepage": "https://github.com/Briseus/test-renovate#readme",
   "private": true,
   "dependencies": {
-    "playwright": "^1.22.0",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "typescript": "4.9"
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "playwright": "1.30",
+    "typescript": "^4.9.5"
   }
 }
