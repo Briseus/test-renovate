@@ -11,6 +11,13 @@ on:
 permissions:
   pull-requests: write
   contents: write
+  checks: write
+  statuses: write
+  contents: write
+  issues: write
+  pull-requests: write
+  actions: write
+
 
 jobs:
   renovate:
