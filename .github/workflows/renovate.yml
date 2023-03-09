@@ -9,8 +9,6 @@ on:
     - cron: '0 0 * * 0'
 
 permissions:
-  pull-requests: write
-  contents: write
   checks: write
   statuses: write
   contents: write
